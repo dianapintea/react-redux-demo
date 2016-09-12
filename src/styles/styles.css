@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+#app {
+  font: 14px 'Roboto', sans-serif;
+  color: #686868;
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #fbfbfb;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+a.active {
+  color: #000;
+}
+
+ul li {
+  font-size: 17px;
+}
+
+.central {
+  background: #fbfbfb;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.button {
+  color: white;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  background: #4b4b4b;
+  padding: 7px 12px;
+  border: 1px solid #282828;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.button-lg {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.central span {
+  font-size: 7px;
+}
